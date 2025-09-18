@@ -13,3 +13,5 @@
 --      |2         |'Brian'            |
 --      |3         |'Charles'          |
 -- TODO: Use the ALTER keyword to add a "lastname" column to the above "Person" table, of type varchar(255).
+ALTER TABLE person
+ADD COLUMN lastname VARCHAR(255);
